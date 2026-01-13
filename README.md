@@ -34,30 +34,102 @@ UX|UI / Agile Methodologies / Graphic Design
 - Scrum | Trello | Jira
 - Suite Adobe | Microsoft Office | Manage Social Media
 
+# Clon Cards - Testimonios de freeCodeCamp
 
-<!--div align="center">
-  <table>
-    <tr>
-      <td>
-        <div align="center">
-          <img src="https://github-readme-stats.vercel.app/api?username=anaaragon88&theme=tokyonight&show_icons=true&hide_border=true&count_private=true" alt="Ana's Stats">
-        </div>
-      </td>
-      <td>
-        <div align="center">
-          <img src="https://github-readme-streak-stats.herokuapp.com/?user=anaaragon88&theme=tokyonight&hide_border=true&currStreakNum=1&currStreakLabel=Current%20streak" alt="Ana's Streak">
-        </div>
-      </td>
-    </tr>
-  </table>
-</div-->
+Una aplicación web moderna construida con **React** y **Vite** que muestra testimonios de estudiantes sobre su experiencia en freeCodeCamp. Presenta un diseño limpio con componentes reutilizables que exhiben perfiles de profesionales de la tecnología.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Características
 
-## React Compiler
+- **Componentes React reutilizables**: Componente `Testimonio` flexible que acepta múltiples propiedades
+- **Vite como bundler**: Build rápido y optimizado con Hot Module Replacement (HMR)
+- **ESLint integrado**: Mantiene la calidad del código con linting automático
+- **Diseño responsivo**: Estilos CSS modernos y bien organizados
+- **Estructura modular**: Separación clara de componentes, estilos y assets
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+## 📋 Requisitos previos
+
+- Node.js >= 14.x
+- npm o yarn
+
+## 🛠️ Instalación
+
+1. Clona el repositorio:
+```bash
+git clone https://github.com/Suso777/clon-cards.git
+cd clon-cards
+```
+
+2. Instala las dependencias:
+```bash
+npm install
+```
+
+## 📦 Scripts disponibles
+
+- **`npm run dev`**: Inicia el servidor de desarrollo (http://localhost:5173)
+- **`npm run build`**: Construye la aplicación para producción
+- **`npm run preview`**: Previsualiza la build de producción localmente
+- **`npm run lint`**: Ejecuta ESLint para verificar la calidad del código
+
+## 🏗️ Estructura del proyecto
+
+```
+src/
+├── components/
+│   └── Testimonio.jsx       # Componente reutilizable de testimonios
+├── styles/
+│   └── Testimonio.css       # Estilos del componente
+├── assets/
+│   └── img/                 # Imágenes de los testimonios
+├── App.jsx                  # Componente principal
+├── App.css                  # Estilos globales
+├── main.jsx                 # Punto de entrada
+└── index.css                # Estilos globales del índice
+```
+
+## 🎯 Componentes principales
+
+### Testimonio.jsx
+Componente que muestra la tarjeta de un testimonio individual. Recibe las siguientes props:
+
+| Prop | Tipo | Descripción |
+|------|------|-------------|
+| `nombre` | string | Nombre de la persona |
+| `pais` | string | País de procedencia |
+| `imagen` | string | Nombre del archivo de imagen |
+| `cargo` | string | Puesto de trabajo actual |
+| `empresa` | string | Empresa donde trabaja |
+| `testimonio` | string | Texto del testimonio |
+
+## 🎨 Tecnologías utilizadas
+
+- **React 19.2.0** - Librería de UI
+- **Vite 7.2.4** - Build tool y dev server
+- **SWC** - Compilador JavaScript rápido (plugin-react-swc)
+- **ESLint** - Linter de código
+- **CSS3** - Estilos
+
+## 💡 Cómo usar
+
+1. Edita [src/App.jsx](src/App.jsx) para agregar o modificar testimonios
+2. Personaliza [src/styles/Testimonio.css](src/styles/Testimonio.css) para ajustar el diseño
+3. Agrega nuevas imágenes a [src/assets/img/](src/assets/img/)
+
+## 🔗 Recursos útiles
+
+- [Documentación de React](https://react.dev)
+- [Documentación de Vite](https://vitejs.dev)
+- [freeCodeCamp](https://www.freecodecamp.org)
+
+## 📝 Licencia
+
+Este proyecto es de código abierto y está disponible bajo la licencia MIT.
+
+---
+
+**Autor**: Suso777  
+**Creado**: 2026
+
 
 ## Expanding the ESLint configuration
 
